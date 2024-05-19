@@ -1,0 +1,3 @@
+The first two SIR was still understandable after searching online
+The last one 2D array was very difficult
+Learnt how to plot an infectious disease with the SIR probablistic model by using the gamma and beta to calculate the new susceptible, new infected and new recovery in a population.
