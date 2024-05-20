@@ -1,0 +1,9 @@
+The percentage identical between human and mouse sequence is: 92.53968253968254%
+The percentage identical between human and rat sequence is: 91.74603174603175%
+The percentage identical between mouse and rat sequence is: 96.82539682539682%
+The alignment score between human and mouse sequence: 3137.0
+The alignment score between human and rat sequence: 3107.0
+The alignment score between mouse and rat sequence: 3261.0
+
+Mouse and rat sequenes are more closely related.
+Mouse is a better model organism for human because the amino acid sequence between mouse and human is more identical.
