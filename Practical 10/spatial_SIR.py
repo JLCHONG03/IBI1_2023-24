@@ -34,7 +34,7 @@ for t in range(1,100):
     for i, j in zip(infected_points[0], infected_points[1]):
         infect_neighbors(50, 50)  #infect the neighbors
         if np.random.rand() < gamma:  # Probability of recovery
-            population[i, j] = 2  # Recover the infected individual
+            population[90, 50] = 2  # Recover the infected individual
 
 # Plot the outcome
 plt.figure(figsize=(8, 6))
