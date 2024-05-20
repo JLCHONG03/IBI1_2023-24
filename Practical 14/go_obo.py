@@ -92,9 +92,9 @@ print("DOM used time: ", DOM_used_time)
 print("SAX used time: ", SAX_used_time)
 #plot the results
 GO_terms_in_DOM = ["Biological_process", "Cellular_component", "Molecular_function"]
-GO_terms_counts_in_DOM = [30794, 4392, 12154]
+GO_terms_counts_in_DOM = [biological_process_count, cellular_component_count, molecular_function_count]
 GO_terms_in_SAX = ["Biological_process", "Cellular_component", "Molecular_function"]
-GO_terms_counts_in_SAX = [30794, 4392, 12154]
+GO_terms_counts_in_SAX = [Handler.biological_process_count, Handler.cellular_component_count, Handler.molecular_function_count]
 
 plt.figure(figsize=(10, 8))
 plt.subplot(2,1,1)
