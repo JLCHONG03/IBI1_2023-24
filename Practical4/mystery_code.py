@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:The code is randomly rolling a number from 99 to 1000 before the progress reaches 100
+# Answer:Sum of 100 random numbers between 1 and 10
 
 # Import libraries
 # randint allows drawing a random number,

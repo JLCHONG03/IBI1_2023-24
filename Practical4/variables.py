@@ -12,9 +12,13 @@ else:
     print("d is greater")
     print("first training has better improvement")
 
-X = a > b 
+X = a < b 
 Y = b < c
-W = not (X and Y) #The opposite result of the 'and' truth table 
-print(X,Y,W)
-
+W = not (X and Y) #The opposite result of the 'AND' truth table 
+print(X,Y,W)      # AND Truth Table
+                  # A    B     A and B
+                  # True True  True 
+                  # True False False
+                  # False True False
+                  # False False False
 
