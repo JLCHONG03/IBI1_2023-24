@@ -1,3 +1,4 @@
+#This code functions to help the faculty to keep a record of the students in IBI1
 #define a class named IBI
 #initialise the attributes needed
 #check if the score is a valid score
@@ -31,7 +32,7 @@ class IBI:
         print(f"Student's group project score: {self.group_project_score}")
         print(f"Student's exam score: {self.exam_score}")
         
-student = IBI("Chong Junliang", "BMI", "101", "101", "101")
+student = IBI("Chong Junliang", "BMI", "102", "101", "101")
 student.IBI1_students_record()
 student.correct_score("code_portfolio_score")
 student.correct_score("group_project_score")
