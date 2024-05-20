@@ -1,3 +1,5 @@
+#this code functions to determine an individual's favourite James Bond actor
+#Each individual's favourite Bond actor is the person who played the character when they turned 18 and started watching James Bond 
 #use the define function
 #store the actors and their corresponding year of acting into a dictionary
 #compare the year where an individual turned 18 to the year in the dictionary
