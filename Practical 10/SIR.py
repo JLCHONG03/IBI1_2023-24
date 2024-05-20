@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-Infected = 1
+Infected = 9000
 Population = 10000
 Recovered = 0
 Susceptible = Population - Infected
