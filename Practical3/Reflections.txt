@@ -1,0 +1,2 @@
+learnt how to commit changes and push it back to github
+challenge met was dn't know how to work in the specific teronminal for the python code
