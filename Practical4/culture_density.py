@@ -7,4 +7,4 @@ while ccd<=90: #the cell culture density cannot exceed 90%
     print("Day ", str(d), " = ", str(ccd))
     if ccd>90: #stop when the cell culture density exceeds 90%
         break
-print("On Day 6 the cell culture density is higher than 90%")
+print("On Day 6 the cell culture density is greater than 90%")
