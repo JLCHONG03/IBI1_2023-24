@@ -1,5 +1,4 @@
 #import the necessary libraries
-#open the basic (S,I,R) and beta, gamma variables
 #input the initial number for the variable
 #create array for the variables
 #use the for range loop to loop 1000 time points
@@ -33,7 +32,7 @@ for time in range(1,1000):
     I.append(I[-1] + np.sum(new_infected) - np.sum(new_recovery))
     R.append(R[-1] + np.sum(new_recovery))
         
-plt.figure()    
+plt.figure(figsize=(10,6))    
 plt.plot(S, label="Susceptible")
 plt.plot(I, label="Infected")
 plt.plot(R, label="Recovery")

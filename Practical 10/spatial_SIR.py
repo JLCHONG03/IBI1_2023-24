@@ -32,7 +32,7 @@ def infect_neighbors(i, j):
 for t in range(1,100):
     infected_points = np.where(population == 1)  #find infected points
     for i, j in zip(infected_points[0], infected_points[1]):
-        infect_neighbors(i, j)  #infect the neighbors
+        infect_neighbors(50, 50)  #infect the neighbors
         if np.random.rand() < gamma:  # Probability of recovery
             population[i, j] = 2  # Recover the infected individual
 
